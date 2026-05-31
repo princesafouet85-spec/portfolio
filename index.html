@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Data Strategist & Analyst</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+
+<body>
+
+    <nav>
+        <div class="container nav-content">
+            <div class="logo">
+                <i data-lucide="database"></i>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#hero">Accueil</a></li>
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#projets">Portfolio</a></li>
+                <li><a href="#services">Services</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Basculer le thème sombre">🌙</button>
+                <a href="#contact" class="btn-about">Me Contacter</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero" id="hero">
+        <div class="orb orb-coral"></div>
+        <div class="orb orb-green"></div>
+        <div class="orb orb-yellow"></div> 
+
+        <div class="container hero-layout">
+            <div class="hero-text animate-ready" data-delay="0.1">
+                <span>Bonjour, je suis</span>
+                <h1>SAFOUET PRINCE NOAH</h1>
+                <p>Data Analyst indépendant spécialisé dans la transformation de données complexes en insights
+                    stratégiques avec des visualisations élégantes.</p>
+                <div class="btn-group">
+                    <a href="#contact" class="btn btn-primary">Engagez-moi</a>
+                    <a href="#projets" class="btn btn-outline">Mon Portfolio</a>
+                </div>
+            </div>
+            <div class="hero-img animate-ready" data-delay="0.2">
+                <img src="image/WhatsApp Image 2026-05-29 at 23.22.39.jpeg" alt="WhatsApp contact image">
+            </div>
+        </div>
+    </header>
+
+
+
+    <section id="about" class="container">
+        <div class="about-layout">
+            <div class="about-intro animate-ready" data-delay="0.1">
+                <p class="section-kicker">À propos</p>
+                <h2>Une approche data centrée sur la décision</h2>
+                <p class="about-lead">
+                    Je suis SAFOUET Prince Noah, Data Analyst indépendant.
+                    J’aide les entreprises à transformer leurs données en insights actionnables grâce à l’analyse, la modélisation et des visualisations claires.
+                </p>
+            </div>
+
+            <div class="about-cards">
+                <div class="about-card animate-ready" data-delay="0.2">
+                    <h3>Ce que vous gagnez</h3>
+                    <ul class="about-list">
+                        <li>Des décisions guidées par les données</li>
+                        <li>Des modèles et dashboards compréhensibles</li>
+                        <li>Un suivi clair des objectifs</li>
+                    </ul>
+                </div>
+
+                <div class="about-card animate-ready" data-delay="0.3">
+                    <h3>Ma méthode</h3>
+                    <ul class="about-list">
+                        <li>Comprendre le besoin métier</li>
+                        <li>Nettoyer & structurer les données</li>
+                        <li>Analyser, prototyper, valider</li>
+                    </ul>
+                </div>
+
+                <div class="about-card animate-ready" data-delay="0.4">
+                    <h3>Livrables typiques</h3>
+                    <ul class="about-list">
+                        <li>Dashboards (PowerBI/Tableau)</li>
+                        <li>Analyses & recommandations</li>
+                        <li>Automatisation & pipelines</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="container">
+
+        <div class="services-layout">
+            <div class="services-intro animate-ready" data-delay="0.1">
+                <p style="color: var(--purple); font-weight: 600; margin-bottom: 1rem;">Services</p>
+                <h2>Ce que je peux faire pour mes clients</h2>
+                <p style="color: var(--text-dim); margin-bottom: 2.5rem;">Je fournis des services de données de haute
+                    qualité pour vous aider à prendre de meilleures décisions basées sur des preuves réelles et des
+                    modèles prédictifs.</p>
+                <a href="#contact" class="btn btn-primary">Commencer</a>
+            </div>
+            <div class="services-grid">
+                <div class="service-card animate-ready" data-delay="0.2">
+                    <div class="icon-box"><i data-lucide="bar-chart-3"></i></div>
+                    <h3>Analyse de Données</h3>
+                    <p style="color: var(--text-dim);">Exploration approfondie des données pour déceler les patterns et
+                        tendances cachés.</p>
+                </div>
+                <div class="service-card animate-ready" data-delay="0.3">
+                    <div class="icon-box"><i data-lucide="layers"></i></div>
+                    <h3>Modélisation ML</h3>
+                    <p style="color: var(--text-dim);">Développement de modèles prédictifs pour anticiper les tendances
+                        et automatiser les décisions.</p>
+                </div>
+                <div class="service-card animate-ready" data-delay="0.4">
+                    <div class="icon-box"><i data-lucide="pie-chart"></i></div>
+                    <h3>Visualisation</h3>
+                    <p style="color: var(--text-dim);">Création de dashboards interactifs pour donner vie à vos données.
+                    </p>
+                </div>
+                <div class="service-card animate-ready" data-delay="0.5">
+                    <div class="icon-box"><i data-lucide="server"></i></div>
+                    <h3>Éthique des Données</h3>
+                    <p style="color: var(--text-dim);">Garantir que vos pipelines de données sont robustes et
+                        respectueux de la confidentialité.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills-dark">
+        <div class="orb orb-green" style="bottom: 0; left: 0; top: auto;"></div>
+        <div class="container skills-layout">
+            <p style="color: var(--purple-light); font-weight: 600; margin-bottom: 1rem;">Compétences</p>
+            <h2>Mes compétences professionnelles</h2>
+            <div class="skills-grid">
+                <div class="skill-group animate-ready" data-delay="0.1">
+                    <div class="skill-bar-container">
+                        <div class="skill-label"><span>Python / Pandas</span> <span>95%</span></div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="95%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-bar-container">
+                        <div class="skill-label"><span>SQL (PostgreSQL)</span> <span>90%</span></div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-bar-container">
+                        <div class="skill-label"><span>A/B Testing</span> <span>85%</span></div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="85%"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-group animate-ready" data-delay="0.2">
+                    <div class="skill-bar-container">
+                        <div class="skill-label"><span>Tableau / PowerBI</span> <span>92%</span></div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="92%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-bar-container">
+                        <div class="skill-label"><span>Machine Learning</span> <span>88%</span></div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="88%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-bar-container">
+                        <div class="skill-label"><span>Pipelines de Données</span> <span>80%</span></div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="80%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projets" class="container">
+        <div class="projects-header">
+            <div class="animate-ready" data-delay="0.1">
+                <p style="color: var(--purple); font-weight: 600; margin-bottom: 1rem;">Portfolio</p>
+                <h2>Voici mes projets, pour vous inspirer</h2>
+            </div>
+            <div class="animate-ready" data-delay="0.2">
+                <p style="color: var(--text-dim); margin-bottom: 2rem;">Découvrez comment je résous des problèmes
+                    commerciaux réels en utilisant des méthodes avancées de science des données.</p>
+                <a href="#" class="btn btn-primary" style="padding: 0.8rem 2rem;">Tout explorer</a>
+            </div>
+        </div>
+
+        <div class="project-cards-grid">
+            <div class="project-card-v2 animate-ready" data-delay="0.1">
+                <img src="image/project1.png" alt="Projet 1" class="pc-img">
+                <div class="pc-content">
+                    <h3>Dashboard d'Optimisation de Supply Chain</h3>
+                    <a href="#" class="btn-pill">Savoir Plus</a>
+                </div>
+            </div>
+            <div class="project-card-v2 animate-ready" data-delay="0.2">
+                <img src="image/project2.png" alt="Projet 2" class="pc-img">
+                <div class="pc-content">
+                    <h3>Plateforme de Segmentation de Marché</h3>
+                    <a href="#" class="btn-pill">Savoir Plus</a>
+                </div>
+            </div>
+            <div class="project-card-v2 animate-ready" data-delay="0.3">
+                <img src="image/project3.png" alt="Projet 3" class="pc-img">
+                <div class="pc-content">
+                    <h3>Moteur d'Analyse de Sentiment en temps réel</h3>
+                    <a href="#" class="btn-pill">Savoir Plus</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container" style="padding-bottom: 8rem;">
+        <div class="cta-banner animate-ready" data-delay="0.1" id="cta">
+            <div class="cta-banner-text">
+                <h2 style="color: var(--white); font-size: 3rem;">Vous avez un projet en tête ?</h2>
+                <p style="color: rgba(255, 255, 255, 0.7); margin: 2rem 0;">Je suis disponible pour des missions de
+                    freelance et du conseil stratégique. Construisons ensemble une approche basée sur les données.</p>
+                <div class="btn-group">
+                    <a href="#contact" class="btn btn-primary">Me Contacter</a>
+                    <a href="#" class="btn btn-outline">Découvrir mon CV</a>
+                </div>
+            </div>
+            <div class="cta-banner-img">
+                <img src="image/WhatsApp Image 2026-05-29 at 23.22.39.jpeg" alt="WhatsApp contact image">
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="container contact-section">
+        <div class="contact-grid">
+            <div class="contact-info animate-ready" data-delay="0.1">
+                <p class="section-label">Contact</p>
+                <h2>Prêt à donner vie à vos données</h2>
+                <p>Envoyez-moi un message dès aujourd'hui pour discuter d'une mission, d'une analyse sur mesure ou d'une collaboration stratégique.</p>
+                <div class="contact-details">
+                    <p><strong>Email :</strong> princesafouet85@gmail.com</p>
+                    <p><strong>WhatsApp :</strong> +33 6 83 61 57 41</p>
+                    <p><strong>Localisation :</strong> cameroun</p>
+                </div>
+            </div>
+            <div class="contact-success animate-ready" id="contact-success" hidden data-delay="0.2"></div>
+            <form id="contact-form" class="contact-form animate-ready" data-delay="0.2">
+                <div class="form-group">
+                    <label for="name">Nom</label>
+                    <input type="text" id="name" placeholder="Votre nom">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Votre email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" rows="6" placeholder="Décrivez votre projet"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Envoyer ma demande</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-logo">SAFOUET</div>
+        <p style="color: rgba(255, 255, 255, 0.7); max-width: 600px; margin: 0 auto;">L'excellence analytique pour
+            propulser votre entreprise vers de nouveaux sommets stratégiques.</p>
+        <div class="social-links">
+            <a href="#" class="social-link"><i data-lucide="linkedin"></i></a>
+            <a href="#" class="social-link"><i data-lucide="github"></i></a>
+            <a href="#" class="social-link"><i data-lucide="twitter"></i></a>
+        </div>
+        <p style="font-size: 0.85rem; color: rgba(255, 255, 255, 0.4);">&copy; 2024 SAFOUET Data Analyst. Conçu avec la
+            précision des données.</p>
+</footer>
+
+
+    <script src="js/script.js"></script>
+    <script>lucide.createIcons();</script>
+</body>
+
+</html>
